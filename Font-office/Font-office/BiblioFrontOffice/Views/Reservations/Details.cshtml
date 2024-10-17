@@ -1,0 +1,77 @@
+﻿@model BiblioFrontOffice.Models.Reservation
+
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div id="printReservation_div">
+    <h4>Reservation</h4>
+    <hr />
+ 
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Date Reservation
+        </dt>
+        <dd class = "col-sm-10">
+            @ViewBag.reservation.DateReservation
+        </dd>
+        <dt class = "col-sm-2">
+            Date Debut Emprunt
+        </dt>
+        <dd class = "col-sm-10">
+            @ViewBag.reservation.DateDebutEmprunt
+        </dd>
+        <dt class = "col-sm-2">
+            Date Fin Emprunt
+        </dt>
+        <dd class = "col-sm-10">
+            @ViewBag.reservation.DateFinEmprunt
+        </dd>
+        <dt class = "col-sm-2">
+            Status
+        </dt>
+        <dd class = "col-sm-10">
+            @ViewBag.reservation.Status
+        </dd>
+    </dl>
+    <div class="container" >
+        <table class="table" id="table_det_resv">
+            <thead>
+                <tr>
+                    <th>
+                      Libelle
+                    </th>
+                    <th>
+                        Nom Auteur
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in ViewBag.detail)
+                {
+                    <tr>
+                        <td>
+                            @item.Libelle
+                        </td>
+                        <td>
+                            @item.NomAuteur
+                        </td>
+                       
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</div>
+        <hr />
+        <div class="text-center mt-5"><button id="printbtn_reserv" class="btn btn-primary">Imprimer Reçu</button></div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+

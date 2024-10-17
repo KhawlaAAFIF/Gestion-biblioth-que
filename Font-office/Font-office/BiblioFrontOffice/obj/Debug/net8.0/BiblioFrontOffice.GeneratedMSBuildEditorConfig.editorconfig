@@ -1,0 +1,123 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BiblioFrontOffice
+build_property.RootNamespace = BiblioFrontOffice
+build_property.ProjectDir = C:\Users\AMINA\Desktop\DOT NET\Font-office\BiblioFrontOffice\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\AMINA\Desktop\DOT NET\Font-office\BiblioFrontOffice
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Adherents/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRoZXJlbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Adherents/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRoZXJlbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Adherents/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRoZXJlbnRzXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Details/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Details/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Details/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Details/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Details/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Documents/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdW1lbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Paniers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFuaWVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Paniers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFuaWVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Paniers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFuaWVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Reservations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Reservations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Reservations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Reservations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Reservations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/AMINA/Desktop/DOT NET/Font-office/BiblioFrontOffice/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-i4tnxln4l2

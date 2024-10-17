@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="MiniProjetBiblio" Class="BiblioDataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost;Initial Catalog=MiniProjetBiblio;Integrated Security=True;Encrypt=True;Trust Server Certificate=True" SettingsObjectName="MiniProjeteBibliotheque.Properties.Settings" SettingsPropertyName="MiniProjetBiblioConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Adherent" Member="Adherents">
+    <Type Name="Adherent">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nom" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="prenom" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="dateinscription" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="Adherent_Reservation" Member="Reservations" ThisKey="id" OtherKey="idadherent" Type="Reservation" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Detail" Member="Details">
+    <Type Name="Detail">
+      <Column Name="idDocument" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idReservation" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="Document_Detail" Member="Document" ThisKey="idDocument" OtherKey="id" Type="Document" IsForeignKey="true" />
+      <Association Name="Reservation_Detail" Member="Reservation" ThisKey="idReservation" OtherKey="id" Type="Reservation" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Utilisateur" Member="Utilisateurs">
+    <Type Name="Utilisateur">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nom" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="prenom" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="role" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Document" Member="Documents">
+    <Type Name="Document">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="libelle" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="dateajout" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="stock" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="nomAuteur" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Document_Detail" Member="Details" ThisKey="id" OtherKey="idDocument" Type="Detail" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Reservation" Member="Reservations">
+    <Type Name="Reservation">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="datereservation" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="datedebutemprunt" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="datefinemprunt" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="status" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idadherent" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Reservation_Detail" Member="Details" ThisKey="id" OtherKey="idReservation" Type="Detail" />
+      <Association Name="Adherent_Reservation" Member="Adherent" ThisKey="idadherent" OtherKey="id" Type="Adherent" IsForeignKey="true" />
+      <Association Name="status_reservation_Reservation" Member="status_reservation" ThisKey="status" OtherKey="id" Type="status_reservation" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.status_reservation" Member="status_reservations">
+    <Type Name="status_reservation">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="libelle" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="status_reservation_Reservation" Member="Reservations" ThisKey="id" OtherKey="status" Type="Reservation" />
+    </Type>
+  </Table>
+  <Table Name="dbo.v_detail_reservation" Member="v_detail_reservations">
+    <Type Name="v_detail_reservation">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="datereservation" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="datedebutemprunt" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="datefinemprunt" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="status" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="nom" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="prenom" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="libelle" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="color" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

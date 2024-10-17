@@ -1,0 +1,49 @@
+﻿@model IEnumerable<BiblioFrontOffice.Models.Document>
+
+@{
+    ViewData["Title"] = "Documents";
+}
+
+<h1>Documents</h1>
+
+@{
+    var rand = new Random();
+}
+
+@foreach (var item in Model)
+{
+
+    <div class="document" style="background-color:rgb(@rand.Next(200,256),@rand.Next(200,256),@rand.Next(200,256));">
+        <h3>@Html.DisplayFor(modelItem => item.Libelle)</h3>
+        <p>Stock: @Html.DisplayFor(modelItem => item.Stock)</p>
+        <p>Auteur: @Html.DisplayFor(modelItem => item.NomAuteur)</p>
+        @if (!string.IsNullOrEmpty(Context.Session.GetString("AdherentId")))
+        {
+            <a asp-action="reserver" asp-route-id="@item.Id">Réserver</a>
+        }
+    </div>
+}
+
+<style>
+
+    .document {
+        text-align: center;
+        display: inline-block;
+        width: 200px;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+    a{
+        text-decoration: none;
+        color: cornflowerblue;
+    }
+   
+
+</style>
+     
+
+        
+
+

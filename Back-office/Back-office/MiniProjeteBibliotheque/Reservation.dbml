@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="MiniProjetBiblio" Class="ReservationDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-EOGSU7B;Initial Catalog=MiniProjetBiblio;Integrated Security=True" SettingsObjectName="MiniProjeteBibliotheque.Properties.Settings" SettingsPropertyName="MiniProjetBiblioConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Reservation" Member="Reservations">
+    <Type Name="Reservation">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="datereservation" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="datedebutemprunt" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="datefinemprunt" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="status" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,52 @@
+﻿@* @model IEnumerable<BiblioFrontOffice.Models.Reservation> *@
+@model IEnumerable<dynamic>
+
+@{
+    ViewData["Title"] = "reservations";
+}
+
+<h1>Mes reservations</h1>
+
+<table class="table" id="reserv_table">
+    <thead>
+        <tr>
+            <th>
+                Date Reservation 
+            </th>
+            <th>
+                Date Debut Emprunt
+            </th>
+            <th>
+                Date Fin Emprunt
+            </th>
+            <th>
+                Status
+            </th>
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+               @item.DateReservation
+            </td>
+            <td>
+                @item.DateDebutEmprunt
+            </td>
+            <td>
+               @item.DateFinEmprunt
+            </td>
+            <td >
+                    <span class="badge" style="background-color:@item.color">@item.libelle</span>
+            </td>
+            
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Supprimer</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,97 @@
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\bin\Debug\MiniProjeteBibliotheque.exe.config
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\bin\Debug\MiniProjeteBibliotheque.exe
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\bin\Debug\MiniProjeteBibliotheque.pdb
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.csproj.AssemblyReference.cache
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\obj\Debug\GestLivres.g.cs
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\obj\Debug\GestReservations.g.cs
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\obj\Debug\MainWindow.g.cs
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\obj\Debug\App.g.cs
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque_MarkupCompile.cache
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque_MarkupCompile.lref
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\obj\Debug\App.baml
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\obj\Debug\GestLivres.baml
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\obj\Debug\GestReservations.baml
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\obj\Debug\MainWindow.baml
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.g.resources
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.Properties.Resources.resources
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.csproj.GenerateResource.cache
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.csproj.CoreCompileInputs.cache
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.csproj.CopyComplete
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.exe
+C:\Users\Khawl\Desktop\git_Project_Biblio\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.pdb
+C:\Users\AMINA\Desktop\DOT NET\MiniProjeteBibliotheque\MiniProjeteBibliotheque\obj\Debug\GestLivres.g.cs
+C:\Users\AMINA\Desktop\DOT NET\MiniProjeteBibliotheque\MiniProjeteBibliotheque\obj\Debug\GestLivres.baml
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\bin\Debug\MiniProjeteBibliotheque.exe.config
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\bin\Debug\MiniProjeteBibliotheque.exe
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\bin\Debug\MiniProjeteBibliotheque.pdb
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.csproj.AssemblyReference.cache
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\GestLivres.g.cs
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\GestReservations.g.cs
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\MainWindow.g.cs
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\SideBar.g.cs
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\App.g.cs
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque_MarkupCompile.cache
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque_MarkupCompile.lref
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\App.baml
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\GestLivres.baml
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\GestReservations.baml
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\MainWindow.baml
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\SideBar.baml
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.g.resources
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.Properties.Resources.resources
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.csproj.GenerateResource.cache
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.csproj.CoreCompileInputs.cache
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.csproj.CopyComplete
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.exe
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.pdb
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\Dashboard.g.cs
+C:\Users\AMINA\Desktop\test pull after branch error\MiniProjeteBibliotheque\obj\Debug\Dashboard.baml
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.csproj.AssemblyReference.cache
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\Dashboard.g.cs
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\GestLivres.g.cs
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\GestReservations.g.cs
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\MainWindow.g.cs
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\SideBar.g.cs
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\App.g.cs
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque_MarkupCompile.cache
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque_MarkupCompile.lref
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.exe
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.pdb
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\bin\Debug\MiniProjeteBibliotheque.exe.config
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\bin\Debug\MiniProjeteBibliotheque.exe
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\bin\Debug\MiniProjeteBibliotheque.pdb
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\bin\Debug\MahApps.Metro.IconPacks.Core.pdb
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\bin\Debug\MahApps.Metro.IconPacks.Material.pdb
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\GestAdherent.g.cs
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\GestEmployes.g.cs
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\App.baml
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\Dashboard.baml
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\GestLivres.baml
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\GestReservations.baml
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\MainWindow.baml
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\SideBar.baml
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\GestAdherent.baml
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\GestEmployes.baml
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.g.resources
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.Properties.Resources.resources
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.csproj.GenerateResource.cache
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.csproj.CoreCompileInputs.cache
+C:\Users\AMINA\Desktop\DOT NET\Back-office\MiniProjeteBibliotheque\obj\Debug\MiniProjeteBibliotheque.csproj.CopyComplete

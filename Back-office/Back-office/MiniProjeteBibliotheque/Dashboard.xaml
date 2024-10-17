@@ -1,0 +1,56 @@
+﻿<Window x:Class="MiniProjeteBibliotheque.Dashboard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MiniProjeteBibliotheque"
+        mc:Ignorable="d"
+        Title="Dashboard" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+
+
+    <Border Background="#eff2f7" CornerRadius="15">
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <local:SideBar/>
+
+            <Grid Grid.Column="1" Margin="30 20 20 20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- Page title -->
+                <TextBlock Text="Dashboard" Grid.Row="1" FontSize="32" FontWeight="SemiBold"
+                Margin="0 20 0 0" HorizontalAlignment="Left" Foreground="#121518"/>
+                <!-- Separator -->
+                <Separator Height="1" Grid.Row="2" Background="#dae2ea" Margin="0 -1 0 10"/>
+
+                <!-- Borders with TextBlocks -->
+                <Border Width="150" Height="100" CornerRadius="15" Background="MediumPurple" Margin="-6,34,406,197" Grid.Row="3" Grid.RowSpan="2">
+                    <TextBlock x:Name="nbrAdr" Padding="4 25 0 4" TextWrapping="Wrap" TextAlignment="Center" FontSize="15" FontWeight="SemiBold" Foreground="White" Loaded="TextBlock_Loaded"/>
+                </Border>
+
+                <Border Width="150" Height="100" CornerRadius="15" Background="MediumOrchid" Margin="215,34,215,197" Grid.Row="3" Grid.RowSpan="2">
+                    <TextBlock x:Name="nbrEmp" Padding="4 25 0 4" TextWrapping="Wrap" TextAlignment="Center" FontSize="14" FontWeight="SemiBold" Foreground="White" Loaded="TextBlock_Loaded"/>
+                </Border>
+
+                <Border Width="150" Height="100" CornerRadius="15" Background="DarkViolet" Margin="430,34,0,197" Grid.Row="3" Grid.RowSpan="2">
+                    <TextBlock x:Name="nbrLiv" Padding="4 25 0 4" TextWrapping="Wrap" TextAlignment="Center" FontSize="15" FontWeight="SemiBold" Foreground="White" Loaded="TextBlock_Loaded"/>
+                </Border>
+
+                <Border Width="150" Height="100" CornerRadius="15" Background="DarkViolet" Margin="215,176,215,55" Grid.Row="3" Grid.RowSpan="2">
+                    <TextBlock x:Name="nbrRes" Padding="4 25 0 4" TextWrapping="Wrap" TextAlignment="Center" FontSize="14" FontWeight="SemiBold" Foreground="White" Loaded="TextBlock_Loaded"/>
+                </Border>
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

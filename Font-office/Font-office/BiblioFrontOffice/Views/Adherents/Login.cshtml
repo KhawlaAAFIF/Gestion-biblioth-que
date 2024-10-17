@@ -1,0 +1,44 @@
+﻿@model BiblioFrontOffice.Models.Adherent
+
+@{
+    ViewData["Title"] = "Authentification";
+}
+
+<h1>Authentification</h1>
+
+<h4>Adhérent</h4>
+<hr />
+<div class="row">
+    @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+    {
+        <div class="alert alert-danger">
+            @ViewBag.ErrorMessage
+        </div>
+    }
+    <div class="col-md-4">
+        <form asp-action="Checklogin">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="email" class="control-label"></label>
+                <input asp-for="email" class="form-control" />
+                <span asp-validation-for="email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="password" class="control-label"></label>
+                <input asp-for="password" type="password" class="form-control" />
+                <span asp-validation-for="password" class="text-danger"></span>
+            </div>
+
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Connexion" class="btn btn-primary" />
+            </div>
+        </form>
+        <br />
+    </div>
+</div>
+
+<div>
+    <a asp-action="Create">Inscription</a>
+</div>

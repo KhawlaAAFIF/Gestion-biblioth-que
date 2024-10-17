@@ -1,0 +1,207 @@
+﻿<Window x:Name="btn_de" x:Class="MiniProjeteBibliotheque.GestReservations"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"    
+
+             xmlns:local="clr-namespace:MiniProjeteBibliotheque"
+        mc:Ignorable="d"
+        Title="GestReservations" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+   
+    <Border Background="#eff2f7" CornerRadius="15"  >
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <local:SideBar />
+            
+        <!-- Data grid-->
+
+            <Grid Grid.Column="1" Margin="30 20 20 20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+
+
+
+                <!--Page title-->
+                <TextBlock x:Name="tb_title" Text="Reservations" Grid.Row="1" FontSize="32" FontWeight="SemiBold"
+                           Margin="0 20 0 0" HorizontalAlignment="Left" Foreground="#121518"/>
+
+
+              
+
+
+                <!--separator-->
+                <Separator Height="1" Grid.Row="3" Background="#dae2ea" Margin="0 -1 0 10"/>
+                <!--tab button-->
+               
+                <!--Remove all button-->
+                <Button x:Name="btnDeleteAll" Style="{StaticResource RemoveButton}"  Width="200" Margin="0 10 0 0" Grid.Row="2" HorizontalAlignment="Left" Click="btnDeleteAll_Click" >
+                    <StackPanel Orientation="Horizontal">
+                        <Icon:PackIconMaterial Kind="Minus" VerticalAlignment="Center" Width="11" Height="11"
+                        Margin="0 1 8 0"/>
+                        <TextBlock Text="Supprimer Reservations"/>
+                    </StackPanel>
+                </Button>
+
+
+                <!--Counter title-->
+                <!--<TextBlock Text="Table des livres" Grid.Row="4" FontSize="18" FontWeight="SemiBold"
+                           Foreground="#121518" HorizontalAlignment="Left" VerticalAlignment="Center"/>-->
+                <!--<TextBlock Text="Chercher une reservations" Grid.Row="2" FontSize="13" FontWeight="SemiBold" Margin="0 0 215 0 "
+                           Foreground="#121518" HorizontalAlignment="right" VerticalAlignment="Center"/>
+
+                --><!--filter textbox--><!--
+                <Grid Width="200" HorizontalAlignment="Right" Grid.Row="2">
+                    <TextBlock Margin="15 0" VerticalAlignment="Center" Foreground="#b0b9c9" IsHitTestVisible="False"
+                                Panel.ZIndex="1" Text="Nom du Livre" Visibility="{Binding ElementName=txtFilter,Path=Text,Converter={StaticResource BoolToVis}}" HorizontalAlignment="Right" Width="170"/>
+                    --><!--?????--><!--
+                    <TextBox x:Name="txtFilter" Style="{StaticResource textboxFilter}"/>
+
+                </Grid>-->
+
+
+                <!--Members dataGrid-->
+                <Grid x:Name="grid_reservations" Loaded="Grid_Loaded" Grid.Row="4">
+                    <DataGrid x:Name="dg_reservations"  Style="{DynamicResource DataGridStyle1}" CellStyle="{DynamicResource DataGridCellStyle1}" ColumnHeaderStyle="{DynamicResource DataGridColumnHeaderStyle1}" RowStyle="{DynamicResource DataGridRowStyle1}" Grid.Row="5"  Margin="0,14,0,56" Grid.RowSpan="2">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="#" IsReadOnly="True" CanUserResize="False" Width="auto" Binding="{Binding id}"/>
+                            <DataGridTextColumn Header="Date Reservation" IsReadOnly="True" Width="*" Binding="{Binding datereservation,StringFormat={}{0:dd/MM/yyyy}}"/>
+                            <DataGridTextColumn Header="Date Debut Emprunt" IsReadOnly="True" Width="*" Binding="{Binding datedebutemprunt,StringFormat={}{0:dd/MM/yyyy}}"/>
+                            <DataGridTextColumn Header="Date Fin Emprunt" IsReadOnly="True" Width="*" Binding="{Binding datefinemprunt,StringFormat={}{0:dd/MM/yyyy}}"/>
+                            <DataGridTemplateColumn Header="Status" SortMemberPath="Status">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding status}" Background="{Binding color}" />
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <!--<DataGridTemplateColumn Header="Etat" IsReadOnly="True" Width="auto">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal">
+                                         
+                                            <Button Content="{Binding status}" Margin="5 0 0 0" x:Name="btnUpdateStatus" Click="btnUpdateStatus_Click">
+                                                <Button.Background>
+                                                    <SolidColorBrush Color="{Binding color}"/>
+                                                </Button.Background>
+                                            </Button>
+
+
+
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+
+                            </DataGridTemplateColumn>-->
+                            <DataGridTextColumn Header="Nom " IsReadOnly="True" Width="*" Binding="{Binding nom}"/>
+                            <DataGridTextColumn Header="Prénom " IsReadOnly="True" Width="*" Binding="{Binding prenom}"/>
+                            <DataGridTextColumn Header="Libelle" IsReadOnly="True" Width="*" Binding="{Binding libelle}"/>
+
+
+                            <!--<DataGridTemplateColumn Header="Operations" IsReadOnly="True" Width="auto">
+                                <DataGridTemplateColumn.CellTemplate>-->
+                                    <!--<DataTemplate>
+                                        <StackPanel Orientation="Horizontal">
+                                            <Button Style="{StaticResource gridEditButton}" x:Name="btnUpdate" Click="btnUpdate_Click">
+                                                <Icon:PackIconMaterial Kind="PencilOffOutline" Style="{StaticResource gridButtonIcon}"/>
+                                            </Button>
+                                            <Button Style="{StaticResource gridRemoveButton}" Margin="5 0 0 0" x:Name="btnDelete" Click="btnDelete_Click">
+                                                <Icon:PackIconMaterial Kind="DeleteOutline" Style="{StaticResource gridButtonIcon}"/>
+                                            </Button>
+                                           
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>-->
+
+                            <!--</DataGridTemplateColumn>-->
+                        </DataGrid.Columns>
+
+                    </DataGrid>
+                    <DataGrid x:Name="dg_reservation_distinct" Visibility="Visible" Style="{DynamicResource DataGridStyle1}" CellStyle="{DynamicResource DataGridCellStyle1}" ColumnHeaderStyle="{DynamicResource DataGridColumnHeaderStyle1}" RowStyle="{DynamicResource DataGridRowStyle1}" Grid.Row="5"  Margin="0,14,0,56" Grid.RowSpan="2">
+                        <DataGrid.Columns>
+                            <DataGridCheckBoxColumn CanUserResize="False" Width="auto" ElementStyle="{StaticResource CheckBoxStyle1}">
+                                <DataGridCheckBoxColumn.HeaderTemplate>
+                                    <DataTemplate>
+                                        <CheckBox x:Name="chkSelectAll" Style="{StaticResource CheckBoxStyle1}"/>
+                                    </DataTemplate>
+                                </DataGridCheckBoxColumn.HeaderTemplate>
+                            </DataGridCheckBoxColumn>
+
+
+                            <DataGridTextColumn Header="#" IsReadOnly="True" CanUserResize="False" Width="auto" Binding="{Binding id}"/>
+                            <DataGridTextColumn Header="Date Reservation" IsReadOnly="True" Width="*" Binding="{Binding datereservation,StringFormat={}{0:dd/MM/yyyy}}"/>
+                            <DataGridTemplateColumn Header="Etat" IsReadOnly="True" Width="auto">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal">
+
+                                            <Button Tag="{Binding id}" Content="{Binding status}" Margin="5 0 0 0" x:Name="btnUpdateStatus" Click="btnUpdateStatus_Click">
+                                                <Button.Background>
+                                                    <SolidColorBrush Color="{Binding color}"/>
+                                                </Button.Background>
+                                            </Button>
+
+
+
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+
+                            </DataGridTemplateColumn>
+                           
+
+                            <DataGridTemplateColumn Header="Operations" IsReadOnly="True" Width="auto">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal">
+                                            <Button Style="{StaticResource gridEditButton}" Tag="{Binding id}" x:Name="btnMore" Click="btnmore_Click">
+                                                <Icon:PackIconMaterial Kind="More" Style="{StaticResource gridButtonIcon}"/>
+                                            </Button>
+                                            <Button Tag="{Binding id}" Style="{StaticResource gridRemoveButton}" Margin="5 0 0 0" x:Name="btnDelete" Click="btnDelete_Click">
+                                                <Icon:PackIconMaterial Kind="DeleteOutline" Style="{StaticResource gridButtonIcon}"/>
+                                            </Button>
+
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+
+                    </DataGrid>
+
+                    <Grid x:Name="update_form" >
+                        <!-- Other elements in your form -->
+                        <StackPanel>
+                            
+                            <Label  Content="Etat"/>
+                            <ComboBox x:Name="cb_etat" Width="100" SelectionChanged="cb_etat_SelectionChanged"/>
+                            <Label Visibility="Hidden" Content="" Name="hidden_res_id"></Label>
+
+                           
+                        </StackPanel>
+
+
+                    </Grid>
+                </Grid>
+
+
+            </Grid>
+
+        </Grid>
+        
+    </Border>
+</Window>

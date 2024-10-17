@@ -1,0 +1,38 @@
+﻿@model IEnumerable<BiblioFrontOffice.Models.Panier>
+
+@{
+    ViewData["Title"] = "Paniers";
+}
+<h1>Mon Paniers</h1>
+
+<table class="table" id="panier_table">
+    <thead>
+        <tr>
+            <th>
+                #Adherent
+            </th>
+            <th>
+                #Document)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdAdherent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdDocument)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> 
+                <a asp-action="Delete" asp-route-id="@item.Id">Supprimer</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<div><a asp-controller="Reservations" asp-action="Create">Completer la reservation</a></div>
